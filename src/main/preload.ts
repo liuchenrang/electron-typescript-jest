@@ -1,2 +1,5 @@
-globalThis.electron = require("electron")
-console.log("preload finish")
+const { contextBridge } = require('electron')
+
+contextBridge.exposeInMainWorld('myAPI', {
+  doAThing: () => {}
+})

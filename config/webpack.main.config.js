@@ -12,12 +12,12 @@ module.exports = {
     path: path.resolve(__dirname, '../dist/main/'),
   },
   plugins: [
-    new CopyPlugin({
-      patterns: [
-        // { from: path.join(__dirname,"..",'node_modules','sb-canvas','build','Release') , to: "canvas" },
-        { from: path.join(__dirname,"..",'node_modules','sb-canvas','build','Release') , to: "./" },
-      ],
-    }),
+    // new CopyPlugin({
+    //   patterns: [
+    //     // { from: path.join(__dirname,"..",'node_modules','sb-canvas','build','Release') , to: "canvas" },
+    //     // { from: path.join(__dirname,"..",'node_modules','sb-canvas','build','Release') , to: "./" },
+    //   ],
+    // }),
   ],
   module: {
     rules: [

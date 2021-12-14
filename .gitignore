@@ -6,3 +6,4 @@ src/cmd/cache
 yarn-error.log
 build
 .DS_Store
+    // "postinstall": "electron-builder install-app-deps",
