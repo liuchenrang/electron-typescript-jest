@@ -10,8 +10,8 @@ module.exports = {
     compress: true,
     port: 9000,
   },
-  target: "electron-renderer",
-
+  // target: "electron-renderer",
+  target: 'web',
   mode: 'development',
   output: {
     filename: 'renderer/[name].js',

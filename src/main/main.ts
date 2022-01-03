@@ -15,8 +15,8 @@ function createWindow(): BrowserWindow {
   let userWindow = new BrowserWindow({
     height: 600,
     webPreferences: {
-      contextIsolation: false,
-      nodeIntegration: true,
+      contextIsolation: true,
+      nodeIntegration: false,
       preload: path.join(__dirname, 'preload.js'),
     },
     width: 800,
